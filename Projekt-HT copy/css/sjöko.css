@@ -34,6 +34,25 @@ h1 {
   color: #CC003E;
 }
 
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+} /*gloweffekt*/
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2.5px #CC003E, 0 0 5px #fff, 0 0 7.5px #CC003E, 0 0 10px #CC003E, 0 0 12.5px #CC003E, 0 0 15px #CC003E, 0 0 17.5px #CC003E;
+  }
+
+  to {
+    text-shadow: 0 0 5px #CC003E, 0 0 7.5px #CC003E, 0 0 10px #CC003E, 0 0 12.5px #CC003E, 0 0 15px #CC003E, 0 0 17.5px #CC003E, 0 0 20px #CC003E;
+  }
+}
+
 section {
   border-top: 2px solid #CC003E;
   border-right: 15px solid #CC003E;
@@ -75,21 +94,24 @@ h2 {
   z-index: 1;
 }
 
-.glow {
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+.example_e {
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 2.5px #CC003E, 0 0 5px #fff, 0 0 7.5px #CC003E, 0 0 10px #CC003E, 0 0 12.5px #CC003E, 0 0 15px #CC003E, 0 0 17.5px #CC003E;
-  }
-
-  to {
-    text-shadow: 0 0 5px #CC003E, 0 0 7.5px #CC003E, 0 0 10px #CC003E, 0 0 12.5px #CC003E, 0 0 15px #CC003E, 0 0 17.5px #CC003E, 0 0 20px #CC003E;
-  }
+.example_e:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
 }
