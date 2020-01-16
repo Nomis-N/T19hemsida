@@ -52,24 +52,18 @@ h1 {
 }
 
 .meme1 {
-  height: 30%;
-  width: 25%;
-  float: left;
-  padding: 125px;
+  height: auto;
+  width: 400px;
 }
 
 .meme2 {
-  height: 30%;
-  width: 25%;
-  float: right;
-  padding: 125px;
+  height: auto;
+  width: 400px;
 }
 
 .meme3 {
-  height: 30%;
-  width: 65%;
-  float: center;
-  padding-top: 125px;
+  height: auto;
+  width: 400px;
 }
 
 p {

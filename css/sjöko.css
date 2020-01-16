@@ -7,6 +7,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .container * {
@@ -21,7 +22,7 @@ padding: 0px;
 
 header {
   padding: 0px;
-  background-image: url("../img/sjöko3.jpeg");
+  background-image: url("../img/sjöko3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

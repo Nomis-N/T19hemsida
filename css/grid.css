@@ -53,7 +53,7 @@ footer {
   grid-row: 35/38;
 }
 
-.p2 {
+#p2 {
   grid-column: 4/7;
   grid-row: 36/36;
 }
@@ -67,44 +67,72 @@ footer {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1110px){
 
   header {
     grid-column: 1/13;
-    grid-row: 1/7;
+    grid-row: 1/15;
   }
 
-  aside {
+  nav {
     grid-column: 1/13;
-    grid-row: 7/13;
-    border-top: 10px solid #CC003E;
-    border-left: 10px solid #CC003E;
-    border-right: 10px solid #CC003E;
-    border-bottom: 2px solid #CC003E;
+    grid-row: 15/26;
   }
+
+  .example_e {
+    grid-column: 3/10;
+    grid-row: 16/16;
+  }
+
+  .example_e2 {
+    grid-column: 3/10;
+    grid-row: 18/18;
+    padding: 13px;
+  }
+
+  .example_e3 {
+    grid-column: 3/10;
+    grid-row: 20/20;
+  }
+
+  .example_e4 {
+    grid-column: 3/10;
+    grid-row: 22/22;
+  }
+
+  .example_e5 {
+    grid-column: 3/10;
+    grid-row: 24/24;
+  }
+
 
   section {
     grid-column: 1/13;
-    grid-row: 13/20;
-    border-top: 2px solid #CC003E;
-    border-left: 10px solid #CC003E;
-    border-right: 10px solid #CC003E;
-    border-bottom: 2px solid #CC003E;
+    grid-row: 26/35;
   }
 
   footer {
     grid-column: 1/13;
-    grid-row: 20/22;
-    border-top: 2px solid #CC003E;
-    border-left: 10px solid #CC003E;
-    border-right: 10px solid #CC003E;
-    border-bottom: 10px solid #CC003E;
+    grid-row: 35/39;
   }
 
- .btn-liquid{ /*KNAPP FOOTER*/
-   grid-column: 1/13;
-   grid-row: 21/21;
-   width: 70%;
-   height: 60%;
+
+ .btn-liquid { /*KNAPP FOOTER*/
+   grid-column: 8/12;
+   grid-row: 36/36;
    justify-self: center;
+}
+
+.btn-liquid canvas { /*KNAPP FOOTER*/
+  position: absolute;
+  top: -35px;
+  right: -50px;
+  bottom: -50px;
+  left: -50px;
+  z-index: 1;
+}
+
+#p2 {
+  grid-column: 4/7;
+  grid-row: 36/36;
 }
