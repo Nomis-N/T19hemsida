@@ -17,6 +17,7 @@ nav {
   grid-row: 25/28;
 }
 
+/*KNAPPARNA*/
 .example_e {
   grid-column: 2/2;
   grid-row: 26/27;
@@ -58,7 +59,8 @@ footer {
   grid-row: 36/36;
 }
 
-.btn-liquid { /*KNAPP FOOTER*/
+/*LIQUIDKNAPP*/
+.btn-liquid {
   grid-column: 8/10;
   grid-row: 36/38;
   width: 100%;
@@ -66,8 +68,7 @@ footer {
   justify-self: center;
 }
 
-
-@media screen and (max-width: 1110px){
+@media screen and (max-width: 1110px) {
 
   header {
     grid-column: 1/13;
@@ -79,6 +80,7 @@ footer {
     grid-row: 15/26;
   }
 
+/*KNAPPARNA*/
   .example_e {
     grid-column: 3/10;
     grid-row: 16/16;
@@ -105,7 +107,6 @@ footer {
     grid-row: 24/24;
   }
 
-
   section {
     grid-column: 1/13;
     grid-row: 26/35;
@@ -116,23 +117,23 @@ footer {
     grid-row: 35/39;
   }
 
+/*LIQUIDKNAPP*/
+  .btn-liquid {
+    grid-column: 8/12;
+    grid-row: 36/36;
+    justify-self: center;
+  }
 
- .btn-liquid { /*KNAPP FOOTER*/
-   grid-column: 8/12;
-   grid-row: 36/36;
-   justify-self: center;
-}
+  .btn-liquid canvas {
+    position: absolute;
+    top: -35px;
+    right: -50px;
+    bottom: -50px;
+    left: -50px;
+    z-index: 1;
+  }
 
-.btn-liquid canvas { /*KNAPP FOOTER*/
-  position: absolute;
-  top: -35px;
-  right: -50px;
-  bottom: -50px;
-  left: -50px;
-  z-index: 1;
-}
-
-#p2 {
-  grid-column: 4/7;
-  grid-row: 36/36;
-}
+  #p2 {
+    grid-column: 4/7;
+    grid-row: 36/36;
+  }
