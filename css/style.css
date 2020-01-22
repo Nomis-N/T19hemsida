@@ -2,8 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   padding: 0px;
-  color: white;
-  display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -25,6 +23,16 @@ header {
 #header_2 {
   padding: 0px;
   background-image: url("../img/sjöko3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: relative;
+}
+
+#header_3 {
+  padding: 0px;
+  background-image: url("../img/heligskrift.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,6 +67,15 @@ h1 {
   }
 }
 
+.meme1_2 {
+  display: flex;
+}
+
+.meme {
+  flex: 50%;
+  padding: 5px;
+}
+
 nav {
   padding: 15px;
   border-top: 6px solid #e61c51;
@@ -84,20 +101,35 @@ section {
   padding: 15px;
 }
 
+.vecka {
+  border: 6px solid #e61c51;
+  border-radius: 15px;
+  padding: 20px;
+}
+
 /*BILDER_MEMEKOLLEKTION*/
-.meme1 {
+#meme1 {
   height: auto;
-  width: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.meme2 {
+#meme2 {
   height: auto;
-  width: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.meme3 {
+#meme3 {
   height: auto;
-  width: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*KNAPPARNA*/
@@ -116,6 +148,7 @@ section {
 }
 
 .example_e:hover {
+  font-size: 13px;
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -131,7 +164,7 @@ section {
   background: transparent;
   color: white !important;
   font-weight: 100;
-  padding: 5px;
+  padding: 13px;
   text-transform: uppercase;
   border-radius: 15px;
   display: inline-block;
@@ -141,6 +174,7 @@ section {
 }
 
 .example_e2:hover {
+  font-size: 13px;
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -166,6 +200,7 @@ section {
 }
 
 .example_e3:hover {
+  font-size: 13px;
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -191,6 +226,7 @@ section {
 }
 
 .example_e4:hover {
+  font-size: 13px;
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -216,6 +252,7 @@ section {
 }
 
 .example_e5:hover {
+  font-size: 13px;
   color: white !important;
   font-weight: 700 !important;
   letter-spacing: 3px;
@@ -229,15 +266,17 @@ section {
 h2 {
   font-size: 30px;
   text-align: center;
+  color: #e61c51;
 }
 
 #p1 {
   font-size: 18px;
-  text-align: left;
+  text-align: center;
+  color: white;
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
   text-align: left;
   color: white;
 }

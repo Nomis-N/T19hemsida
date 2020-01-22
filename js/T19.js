@@ -1,4 +1,9 @@
 $(function() {
+
+  window.onresize = function(event) {
+    initButton();
+  }
+
   // Vars
   var pointsA = [],
     pointsB = [],
@@ -80,8 +85,8 @@ $(function() {
     button.append($canvas);
 
     canvas = $canvas.get(0);
-    canvas.width = buttonWidth + 75;
-    canvas.height = buttonHeight + 75;
+    canvas.width = buttonWidth + 200;
+    canvas.height = buttonHeight + 50;
     context = canvas.getContext('2d');
 
     // Add points
@@ -170,7 +175,7 @@ $(function() {
 
     // Clear scene
     context.clearRect(0, 0, $canvas.width(), $canvas.height());
-    context.fillStyle = '#fff';
+    context.fillStyle = '#ffffff00';
     context.fillRect(0, 0, $canvas.width(), $canvas.height());
 
     // Move points
@@ -185,8 +190,8 @@ $(function() {
     var distance = Math.sqrt(Math.pow(gradientX - $canvas.width() / 2, 2) + Math.pow(gradientY - $canvas.height() / 2, 2)) / Math.sqrt(Math.pow($canvas.width() / 2, 2) + Math.pow($canvas.height() / 2, 2));
 
     var gradient = context.createRadialGradient(gradientX, gradientY, 300 + 300 * distance, gradientX, gradientY, 0);
-    gradient.addColorStop(0, '#102ce5');
-    gradient.addColorStop(1, '#CC003E');
+    gradient.addColorStop(0, '#CC003E');
+    gradient.addColorStop(1, '#EC4686');
 
     // Draw shapes
     var groups = [pointsA, pointsB];

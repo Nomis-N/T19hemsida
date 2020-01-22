@@ -68,7 +68,7 @@ footer {
   justify-self: center;
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1160px) {
 
   header {
     grid-column: 1/13;
