@@ -1,3 +1,4 @@
+/*JS FÖR LIQUIDKNAPP*/
 $(function() {
 
   window.onresize = function(event) {
@@ -85,7 +86,7 @@ $(function() {
     button.append($canvas);
 
     canvas = $canvas.get(0);
-    canvas.width = buttonWidth + 200;
+    canvas.width = buttonWidth + 100;
     canvas.height = buttonHeight + 50;
     context = canvas.getContext('2d');
 
@@ -190,8 +191,8 @@ $(function() {
     var distance = Math.sqrt(Math.pow(gradientX - $canvas.width() / 2, 2) + Math.pow(gradientY - $canvas.height() / 2, 2)) / Math.sqrt(Math.pow($canvas.width() / 2, 2) + Math.pow($canvas.height() / 2, 2));
 
     var gradient = context.createRadialGradient(gradientX, gradientY, 300 + 300 * distance, gradientX, gradientY, 0);
-    gradient.addColorStop(0, '#CC003E');
-    gradient.addColorStop(1, '#EC4686');
+    gradient.addColorStop(0, '#e61c51');
+    gradient.addColorStop(1, '#e61c7a');
 
     // Draw shapes
     var groups = [pointsA, pointsB];
@@ -201,7 +202,7 @@ $(function() {
 
       if (j == 0) {
         // Background style
-        context.fillStyle = '#FF3383';
+        context.fillStyle = '#b02058';
       } else {
         // Foreground style
         context.fillStyle = gradient;

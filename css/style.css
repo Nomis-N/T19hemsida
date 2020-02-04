@@ -20,7 +20,7 @@ header {
   position: relative;
 }
 
-#header_2 {
+.header_2 {
   padding: 0px;
   background-image: url("../img/sjöko3.jpg");
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ header {
   position: relative;
 }
 
-#header_3 {
+.header_3 {
   padding: 0px;
   background-image: url("../img/heligskrift.jpg");
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ nav {
   -moz-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
 }
 
-#nav_2 {
+.nav_2 {
   border-top: 6px solid #e61c51;
   padding: 0px;
 }
@@ -95,7 +95,7 @@ section {
   -moz-box-shadow: 0px 5px 40px -5px rgba(0, 0, 0, 0.57);
 }
 
-#section_2 {
+.section_2 {
   border-top: 6px solid #e61c51;
   padding: 15px;
 }
@@ -107,28 +107,25 @@ section {
 }
 
 /*BILDER_MEMEKOLLEKTION*/
-#meme1 {
+.memes {
   height: auto;
   width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 6px solid #e61c51;
+  border-radius: 15px;
 }
 
-#meme2 {
-  height: auto;
-  width: 600px;
+/*BILDER_KONTAKT*/
+.kontaktbild {
+  height: 800px;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#meme3 {
-  height: auto;
-  width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border: 6px solid #e61c51;
+  border-radius: 15px;
 }
 
 /*KNAPPARNA*/
@@ -268,7 +265,7 @@ h2 {
   color: #e61c51;
 }
 
-#p1 {
+.p1 {
   font-size: 18px;
   text-align: center;
   color: white;
@@ -414,12 +411,12 @@ footer {
 
 .stars {
   background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index: 0;
+  z-index: -1;
 }
 
 .twinkling {
   background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index: 1;
+  z-index: -1;
   -moz-animation: move-twink-back 200s linear infinite;
   -ms-animation: move-twink-back 200s linear infinite;
   -o-animation: move-twink-back 200s linear infinite;
