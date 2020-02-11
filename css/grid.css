@@ -49,6 +49,11 @@ section {
   padding: 35px;
 }
 
+#linkintro {
+  grid-column: 4/10;
+  grid-row: 29/29;
+}
+
 footer {
   grid-column: 1/13;
   grid-row: 35/38;
