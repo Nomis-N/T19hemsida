@@ -91,6 +91,11 @@ footer {
     grid-row: 15/26;
   }
 
+  #linkintro {
+    grid-column: 4/10;
+    grid-row: 29/29;
+  }
+
   /*KNAPPARNA*/
   .example_e {
     grid-column: 3/10;
@@ -121,6 +126,11 @@ footer {
   section {
     grid-column: 1/13;
     grid-row: 26/35;
+  }
+
+  #linkintro {
+    grid-column: 4/10;
+    grid-row: 27/27;
   }
 
   footer {
