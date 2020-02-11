@@ -21,15 +21,36 @@ section {
   padding: 35px;
 }
 
+.example_e2 {
+  grid-column: 6/8;
+  grid-row: 28/28;
+}
+
+.example_e3 {
+  grid-column: 6/8;
+  grid-row: 49/49;
+}
+
+.example_e4 {
+  grid-column: 6/8;
+  grid-row: 71/71;
+}
+
+.example_e5 {
+  grid-column: 6/8;
+  grid-row: 92/92;
+}
+
+
 @media screen and (max-width: 1250px) {
   .nav_2 {
     grid-column: 1/13;
     grid-row: 1/4;
   }
 
-  .section {
+  section {
     grid-column: 1/13;
-    grid-row: 4/45;
+    grid-row: 4/70;
  }
 
   .kontaktbild {
@@ -42,7 +63,23 @@ section {
     border-radius: 15px;
   }
 
-  .example_e {
-    font-size: 14px;
-  }
+.example_e2 {
+  grid-column: 5/9;
+  grid-row: 24/24;
+}
+
+.example_e3 {
+  grid-column: 5/9;
+  grid-row: 36/36;
+}
+
+.example_e4 {
+  grid-column: 5/9;
+  grid-row: 48/48;
+}
+
+.example_e5 {
+  grid-column: 5/9;
+  grid-row: 60/60;
+}
 }

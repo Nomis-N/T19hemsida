@@ -38,8 +38,4 @@ section {
     grid-column: 1/13;
     grid-row: 4/45;
   }
-
-  .example_e {
-    font-size: 14px;
-  }
 }

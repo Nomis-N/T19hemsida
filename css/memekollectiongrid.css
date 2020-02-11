@@ -33,8 +33,4 @@ section {
     grid-column: 1/13;
     grid-row: 4/17;
   }
-
-  .example_e {
-    font-size: 14px;
-  }
 }

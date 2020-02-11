@@ -17,7 +17,7 @@
 
 section {
   grid-column: 1/13;
-  grid-row: 4/26;
+  grid-row: 4/60;
   padding: 35px;
 }
 
@@ -30,9 +30,5 @@ section {
   .section_2 {
     grid-column: 1/13;
     grid-row: 4/45;
-  }
-
-  .example_e {
-    font-size: 14px;
   }
 }

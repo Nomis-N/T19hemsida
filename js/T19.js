@@ -290,3 +290,14 @@ $(function() {
   initButton();
 });
 //# sourceURL=pen.js
+
+
+function myFunction() {
+   var head = document.getElementsByTagName('logo');
+   var head = document.getElementsByTagName('intro');
+   var head = document.getElementsByTagName('introtext');
+   var head = document.getElementsByTagName('introtitel');
+   var head = document.getElementsByTagName('introsubtitel');
+   var head = document.getElementsByTagName('board');
+   var head = document.getElementsByTagName('content');
+}
