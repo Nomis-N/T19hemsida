@@ -79,6 +79,6 @@ section {
 
   .example_e5 {
     grid-column: 5/9;
-    grid-row: 60/60;
+    grid-row: 61/61;
   }
 }
