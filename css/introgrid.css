@@ -16,6 +16,7 @@
 }
 
 @media screen and (max-width: 1150px) {
+
   .example_intro {
     grid-column: 4/10;
     grid-row: 2/2;
