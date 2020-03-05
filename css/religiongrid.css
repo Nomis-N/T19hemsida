@@ -35,9 +35,9 @@
   }
 
   .example_e {
-    grid-column: 5/9;
+    grid-column: 6/8;
     grid-row: 2/2;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .header_3 {
