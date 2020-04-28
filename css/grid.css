@@ -49,6 +49,7 @@ section {
   padding: 35px;
 }
 
+/*Introduktion*/
 #linkintro {
   grid-column: 4/10;
   grid-row: 29/29;
@@ -91,6 +92,7 @@ footer {
     grid-row: 15/26;
   }
 
+/*Introduktion*/
   #linkintro {
     grid-column: 4/10;
     grid-row: 29/29;
