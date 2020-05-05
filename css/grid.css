@@ -95,7 +95,7 @@ footer {
 
 /*Introduktion*/
   #linkintro {
-    grid-column: 3/8;
+    grid-column: 4/10;
     grid-row: 29/29;
   }
 
@@ -128,7 +128,7 @@ footer {
 
   section {
     grid-column: 1/13;
-    grid-row: 26/35;
+    grid-row: 26/40;
   }
 
   #linkintro {
