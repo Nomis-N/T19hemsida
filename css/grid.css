@@ -75,6 +75,7 @@ footer {
 }
 
 @media screen and (max-width: 1160px) {
+
   .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -94,7 +95,7 @@ footer {
 
 /*Introduktion*/
   #linkintro {
-    grid-column: 4/10;
+    grid-column: 3/8;
     grid-row: 29/29;
   }
 
